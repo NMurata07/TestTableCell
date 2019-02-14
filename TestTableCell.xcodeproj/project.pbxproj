@@ -12,6 +12,10 @@
 		AD90D1B222146EA200F14C8E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD90D1B022146EA200F14C8E /* Main.storyboard */; };
 		AD90D1B422146EA400F14C8E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD90D1B322146EA400F14C8E /* Assets.xcassets */; };
 		AD90D1B722146EA400F14C8E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD90D1B522146EA400F14C8E /* LaunchScreen.storyboard */; };
+		AD90D1BF22146F7600F14C8E /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = AD90D1BE22146F7600F14C8E /* README.md */; };
+		AD90D1C12214705A00F14C8E /* TestTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD90D1C02214705A00F14C8E /* TestTableCell.xib */; };
+		AD90D1C3221471C100F14C8E /* TestTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD90D1C2221471C100F14C8E /* TestTableCell.swift */; };
+		AD90D1C52214777A00F14C8E /* hogehoge.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AD90D1C42214777A00F14C8E /* hogehoge.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		AD90D1B322146EA400F14C8E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AD90D1B622146EA400F14C8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AD90D1B822146EA400F14C8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD90D1BE22146F7600F14C8E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		AD90D1C02214705A00F14C8E /* TestTableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TestTableCell.xib; sourceTree = "<group>"; };
+		AD90D1C2221471C100F14C8E /* TestTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTableCell.swift; sourceTree = "<group>"; };
+		AD90D1C42214777A00F14C8E /* hogehoge.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = hogehoge.jpg; path = ../../../Downloads/hogehoge.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +46,7 @@
 		AD90D1A022146EA200F14C8E = {
 			isa = PBXGroup;
 			children = (
+				AD90D1BE22146F7600F14C8E /* README.md */,
 				AD90D1AB22146EA200F14C8E /* TestTableCell */,
 				AD90D1AA22146EA200F14C8E /* Products */,
 			);
@@ -57,9 +66,12 @@
 				AD90D1AC22146EA200F14C8E /* AppDelegate.swift */,
 				AD90D1AE22146EA200F14C8E /* ViewController.swift */,
 				AD90D1B022146EA200F14C8E /* Main.storyboard */,
+				AD90D1C42214777A00F14C8E /* hogehoge.jpg */,
 				AD90D1B322146EA400F14C8E /* Assets.xcassets */,
 				AD90D1B522146EA400F14C8E /* LaunchScreen.storyboard */,
 				AD90D1B822146EA400F14C8E /* Info.plist */,
+				AD90D1C02214705A00F14C8E /* TestTableCell.xib */,
+				AD90D1C2221471C100F14C8E /* TestTableCell.swift */,
 			);
 			path = TestTableCell;
 			sourceTree = "<group>";
@@ -124,6 +136,9 @@
 			files = (
 				AD90D1B722146EA400F14C8E /* LaunchScreen.storyboard in Resources */,
 				AD90D1B422146EA400F14C8E /* Assets.xcassets in Resources */,
+				AD90D1C12214705A00F14C8E /* TestTableCell.xib in Resources */,
+				AD90D1C52214777A00F14C8E /* hogehoge.jpg in Resources */,
+				AD90D1BF22146F7600F14C8E /* README.md in Resources */,
 				AD90D1B222146EA200F14C8E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -136,6 +151,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AD90D1AF22146EA200F14C8E /* ViewController.swift in Sources */,
+				AD90D1C3221471C100F14C8E /* TestTableCell.swift in Sources */,
 				AD90D1AD22146EA200F14C8E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
